@@ -1,0 +1,84 @@
+body{
+    /*background-image:url(img/dball.jpg);*/
+    background-size:contain;
+  /* The image used */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 25%;
+    background-color:cornflowerblue;
+    color: black;
+    width: 400px;
+    height: 170px;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: "Saiyan-Sans Right Oblique.ttf", sans-serif;;
+    font-size: 72px;
+    
+}
+
+#pie1{
+    color: rgb(194, 194, 24);
+    clear: both;
+    text-align: unset;
+    padding: 20px;
+    border-top: 2px;
+    font-family: "Saiyan-Sans Right Oblique.ttf", sans-serif;
+    font-size: 72px;
+    text-shadow: -4px -4px 0 black, 
+               4px -4px 0 black, 
+               -4px 4px 0 black, 
+               4px 4px 0 black;
+    
+
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px */
+  }
+
+@media screen and (max-width: 600px) {
+    .btn {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+
+  @font-face {
+    font-family: "Saiyan-Sans Right Oblique.ttf";
+    src: url(fonts/Saiyan-Sans\ Right\ Oblique.ttf) format("truetype");
+  }
+    
+  #goku0{
+    background: url(img/Daco_5226700.png);
+    width: 40;
+    height: 30px;
+    background-position:  -19px 0;
+ }

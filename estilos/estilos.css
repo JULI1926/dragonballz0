@@ -1,0 +1,93 @@
+.contenedor{
+    position: relative;
+    width: 750px;
+    height: 423px;
+    border: 2px solid yellow;    
+    background-image: url(../img/juegosdecell.jpg);
+}
+
+.contenedor button.Kamehameha{
+    position: absolute;    
+    top:77%; 
+    left:20%;
+    border: none;
+    background: none;
+}
+
+.contenedor button.genkidama{
+    position: absolute;    
+    top:77%; 
+    left:40%;
+    border: none;
+    background: none;
+}
+.contenedor button.kaioken{
+    position: absolute;    
+    top:77%; 
+    left:60%;
+    border: none;
+    background: none;
+}
+
+.contenedor div.mensaje{
+    position: absolute;    
+    top:10%; 
+    left:0%;
+    background-color:darkseagreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.contenedor div.vidaJugador{
+    position: absolute;    
+    top:60%; 
+    left:0%;
+    background-color: white;
+}
+
+.contenedor h1.atadef{
+    position: absolute;    
+    top:40%; 
+    left:35%;
+    background-color:gold;
+}
+
+.contenedor .aguita {    
+    background-color: transparent;
+    width: 90px;
+    height: 90px;
+    max-width: 100%;
+    max-height: 100%;       
+    
+}
+
+.contenedor h1.vida-jugador{
+    position: absolute;   
+    top:-5%; 
+    left:5%;
+    background-color:aqua;
+}
+
+
+.contenedor h1.vida-enemigo{
+    position: absolute;   
+    top:-5%; 
+    left:55%;
+    background-color:aqua;
+}
+
+.contenedor img.goku{
+    position: absolute; 
+    width: 152px;
+    height: 146px;
+    top:35%; 
+    left:5%;
+}
+
+.contenedor img.freezer{
+    position: absolute; 
+    width: 172px;
+    height: 136px;
+    top:35%; 
+    left:70%;
+}

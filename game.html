@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="js/game.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="atadef">ATACAR</h1>
+        <div class="mensaje"></div>
+        <h1 class="vida-jugador">Vida del jugador: <span id="vida-jugador"></span></h1>
+        <h1 class="vida-enemigo">Vida del enemigo: <span id="vida-enemigo"></span></h1>              
+        <button class="Kamehameha" onclick="calculardano(0,Math.floor(Math.random() * 3),0)">      
+            <img src="./img/kameha.gif" alt="" class="aguita">
+        </button>
+        <button class="genkidama" onclick="calculardano(1,Math.floor(Math.random() * 3),0)">
+            <img src="./img/genkidama.gif" alt="" class="aguita">
+        </button>
+        <button class="kaioken" onclick="calculardano(2,Math.floor(Math.random() * 3),0)">
+            <img src="./img/kaioken.gif" alt="" class="aguita">
+        </button>
+        <img src="./img/goku.gif" alt="" class ="goku">
+        <img src="./img/freezer.gif" alt="" class ="freezer">
+    </div>
+</body>
+
+</html>
