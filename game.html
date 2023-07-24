@@ -9,10 +9,13 @@
 </head>
 <body>
     <div class="contenedor">
+               
         <h1 class="atadef">ATACAR</h1>
         <div class="mensaje"></div>
-        <h1 class="vida-jugador">Vida del jugador: <span id="vida-jugador"></span></h1>
-        <h1 class="vida-enemigo">Vida del enemigo: <span id="vida-enemigo"></span></h1>              
+        <h1 class="vida-jugador">Vida del jugador: <strong><span id="vida-jugador"></span></strong></h1>
+        <h1 class="vida-enemigo">Vida del enemigo: <strong><span id="vida-enemigo"></span></strong></h1>
+
+       
         <button class="Kamehameha" onclick="calculardano(0,Math.floor(Math.random() * 3),0)">      
             <img src="./img/kameha.gif" alt="" class="aguita">
         </button>
@@ -22,9 +25,18 @@
         <button class="kaioken" onclick="calculardano(2,Math.floor(Math.random() * 3),0)">
             <img src="./img/kaioken.gif" alt="" class="aguita">
         </button>
-        <img src="./img/goku.gif" alt="" class ="goku">
-        <img src="./img/freezer.gif" alt="" class ="freezer">
+
+        <img src="gif/kameha.gif" id="imgKameha">
+        <img src="gif/genki-dama.gif" id="imgGenkidama">
+        <img src="gif/kaioken.gif" id="imgKaioken">
+        <img src="gif/freezer1.gif" id="imgKamehafreezer">
+        <img src="gif/freezer2.gif" id="imgGenkidamafreezer">
+        <img src="gif/freezer3.gif" id="imgKaiokenfreezer">
+        
+        <!--<img src="./img/goku.gif" alt="" class ="goku">-->
+        <!--<img src="./img/freezer.gif" alt="" class ="freezer">-->
+        
+        
     </div>
 </body>
-
 </html>

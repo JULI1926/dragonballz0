@@ -1,14 +1,16 @@
 .contenedor{
     position: relative;
-    width: 750px;
-    height: 423px;
-    border: 2px solid yellow;    
+    width: 1000px;
+    height: 564px;    
+    border: 2px solid yellow; 
+    background-repeat: no-repeat;
     background-image: url(../img/juegosdecell.jpg);
+    background-size: 100% 100%;
 }
 
 .contenedor button.Kamehameha{
     position: absolute;    
-    top:77%; 
+    top:81%; 
     left:20%;
     border: none;
     background: none;
@@ -16,14 +18,14 @@
 
 .contenedor button.genkidama{
     position: absolute;    
-    top:77%; 
+    top:81%; 
     left:40%;
     border: none;
     background: none;
 }
 .contenedor button.kaioken{
     position: absolute;    
-    top:77%; 
+    top:81%; 
     left:60%;
     border: none;
     background: none;
@@ -36,18 +38,19 @@
     background-color:darkseagreen;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size:larger;
 }
 
 .contenedor div.vidaJugador{
     position: absolute;    
-    top:60%; 
+    top:70%; 
     left:0%;
     background-color: white;
 }
 
 .contenedor h1.atadef{
     position: absolute;    
-    top:40%; 
+    top:70%; 
     left:35%;
     background-color:gold;
 }
@@ -63,16 +66,16 @@
 
 .contenedor h1.vida-jugador{
     position: absolute;   
-    top:-5%; 
-    left:5%;
+    top:-3%; 
+    left:14%;
     background-color:aqua;
 }
 
 
 .contenedor h1.vida-enemigo{
     position: absolute;   
-    top:-5%; 
-    left:55%;
+    top:-3%; 
+    left:57%;
     background-color:aqua;
 }
 
@@ -90,4 +93,57 @@
     height: 136px;
     top:35%; 
     left:70%;
+}
+
+
+
+#imgKameha {
+    visibility: hidden;
+    position: absolute;
+    top:5%;
+    left:19%;
+}
+
+#imgGenkidama {   
+    visibility: hidden;
+    position: relative;
+    top:3%;
+    left:21%;
+
+}
+
+#imgKaioken {
+    visibility: hidden;
+    position: relative;
+    top:5%;
+    left:-30%;
+}
+
+
+#imgKamehafreezer {
+    visibility: hidden;
+    position: absolute;
+    top:39%;
+    left:50%;
+    width: auto;
+    height: 170px;
+}
+
+#imgGenkidamafreezer {   
+    visibility: hidden;
+    position: relative;
+    top:-52%;
+    left:25%;
+    width: auto;
+    height: 210px;
+
+}
+
+#imgKaiokenfreezer {
+    visibility: hidden;
+    position: relative;
+    top: -57%;
+    left: -15%;
+    width: auto;
+    height: 350px;
 }
